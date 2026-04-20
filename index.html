@@ -772,7 +772,7 @@ position:relative;overflow:hidden;transition:color .35s}
         <p class="sp-eyebrow">Spår 02</p>
         <h3>Ert koncept</h3>
         <p class="sp-sub">"Formad av Micare"</p>
-        <p class="sp-body">Finns det en annan produkt ni vill lyfta, ett budskap ni vill föra fram eller en känsla ni vill pröva — så formar vi spåret efter er vision. Ni skickar briefen, vi översätter den till Villa Sjöviks visuella språk i en miljö som följarna redan lever med.</p>
+        <p class="sp-body">Finns det en annan produkt ni vill lyfta, ett budskap ni vill föra fram eller en känsla ni vill pröva — så formar jag spåret efter er vision. Ni skickar briefen, jag översätter den till Villa Sjöviks visuella språk i en miljö som följarna redan lever med.</p>
       </div>
 
       <div class="sp-c rv d3">
@@ -826,7 +826,7 @@ position:relative;overflow:hidden;transition:color .35s}
   <div class="pr-inner">
     <p class="sec-lbl rv">Investering</p>
     <h2 class="sec-h2 rv">Ett <em>premiärsamarbete</em> för svensk marknad.</h2>
-    <p class="sec-sublead rv">Vi förstår att Micare ännu inte lagt marknadsföringskronor i Sverige. Därför föreslår vi ett fokuserat premiärsamarbete som testar räckvidden och bygger bildbanken — och lämnar ett större kampanjupplägg öppet för när ni vill växa in i marknaden.</p>
+    <p class="sec-sublead rv">Jag förstår att Micare ännu inte lagt marknadsföringskronor i Sverige. Därför föreslår jag ett fokuserat premiärsamarbete som testar räckvidden och bygger bildbanken — och lämnar ett större kampanjupplägg öppet för när ni vill växa in i marknaden.</p>
 
     <div class="price-grid">
 
@@ -878,7 +878,7 @@ position:relative;overflow:hidden;transition:color .35s}
   <div class="cta-inner">
     <p class="cta-tag rv">Nästa steg</p>
     <h2 class="rv">
-      <span class="cta-l1">Låt oss</span><br>
+      <span class="cta-l1">Dags att</span><br>
       <em class="cta-l2">börja.</em>
     </h2>
     <div class="cta-btns rv">
@@ -953,7 +953,7 @@ position:relative;overflow:hidden;transition:color .35s}
           <!-- STAGE 3: UPPGIFTER -->
           <div class="bk-stage" data-stage="3">
             <h3>Dina uppgifter</h3>
-            <p class="bk-sub">Vi bekräftar bokningen inom 24h.</p>
+            <p class="bk-sub">Jag bekräftar bokningen inom 24h.</p>
             <div class="bk-summary" id="bk-summary"></div>
             <div class="bk-error" id="bk-err" style="display:none"></div>
             <form class="bk-form" id="bk-form" novalidate>
@@ -967,7 +967,7 @@ position:relative;overflow:hidden;transition:color .35s}
               </div>
               <div class="bk-field bk-full">
                 <label for="bk-msg">Något du vill dela innan mötet? <span style="opacity:.5;text-transform:none;letter-spacing:0">(valfritt)</span></label>
-                <textarea id="bk-msg" name="message" placeholder="Några tankar, frågor eller önskemål — annars tar vi det på mötet."></textarea>
+                <textarea id="bk-msg" name="message" placeholder="Några tankar, frågor eller önskemål — annars tas det på mötet."></textarea>
               </div>
             </form>
             <div class="bk-nav">
@@ -981,7 +981,7 @@ position:relative;overflow:hidden;transition:color .35s}
             <div class="bk-done">
               <div class="bk-done-icon">✓</div>
               <h3>Tack — <em>bokningen är skickad.</em></h3>
-              <p id="bk-done-text">Vi återkommer inom 24h med en kalenderinbjudan och bekräftelse på tiden.</p>
+              <p id="bk-done-text">Jag återkommer inom 24h med en kalenderinbjudan och bekräftelse på tiden.</p>
             </div>
             <div class="bk-nav" style="justify-content:center;border-top:none;padding-top:8px">
               <button class="bk-btn ghost ch" type="button" id="bk-done-close">Stäng</button>
@@ -1472,7 +1472,7 @@ if(spotSec){
     }catch(err){/* nätverksfel — faller tillbaka till mailto */}
 
     if(sent){
-      doneText.textContent='Vi återkommer inom 24h med en kalenderinbjudan och bekräftelse på tiden.';
+      doneText.textContent='Jag återkommer inom 24h med en kalenderinbjudan och bekräftelse på tiden.';
       goStage(4);
     }else{
       // Fallback: öppna mailto så användaren manuellt skickar (kräver ingen aktivering)
@@ -1491,7 +1491,7 @@ ${payload.Meddelande}
 — Skickat via Micare-pitch`;
       const mailto=`mailto:${RECIPIENT}?subject=${encodeURIComponent(payload._subject)}&body=${encodeURIComponent(body)}`;
       window.location.href=mailto;
-      doneText.textContent='Bokningen öppnas i ditt mailprogram — tryck skicka där för att bekräfta tiden. Vi återkommer inom 24h.';
+      doneText.textContent='Bokningen öppnas i ditt mailprogram — tryck skicka där för att bekräfta tiden. Jag återkommer inom 24h.';
       goStage(4);
     }
     submitBtn.disabled=false;
